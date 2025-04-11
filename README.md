@@ -84,6 +84,14 @@ document.getElementById('search').addEventListener('input', search);
 - **100% Test Coverage**: Rigorous tests with Vitest for reliability.
 - **Modern Workflow**: Built for Node.js 18+ and compatible with frameworks like React, Vue, or Svelte.
 
+## Live Demo
+
+Try `@abuhasanrumi/micro-flow` in action:
+
+[Live Demo on CodeSandbox](https://codesandbox.io/p/sandbox/demo-micro-flow-y24tlk)
+
+See `debounce` on a search input, `throttle` on scroll events, and `dynamic` with adaptive typing—all in a simple, interactive example.
+
 ## API Reference
 
 ### `debounce(fn, wait)`
