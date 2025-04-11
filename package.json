@@ -1,16 +1,28 @@
 {
-  "name": "@abuhasanrumi/micro-flow", 
+  "name": "@abuhasanrumi/micro-flow",
   "version": "1.0.0",
   "description": "A tiny utility for debouncing, throttling, and dynamic rate-limiting",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && esbuild src/index.js --bundle --minify --format=esm --outfile=dist/index.js",
     "test": "vitest run"
   },
-  "keywords": ["debounce", "throttle", "rate-limit", "performance"],
+  "keywords": [
+    "debounce",
+    "throttle",
+    "rate-limit",
+    "performance"
+  ],
   "author": "Your Name <your.email@example.com>",
   "license": "MIT",
-  "files": ["dist"]
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "esbuild": "^0.25.2",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.1"
+  }
 }
