@@ -1,0 +1,16 @@
+{
+  "name": "@abuhasanrumi/micro-flow", 
+  "version": "1.0.0",
+  "description": "A tiny utility for debouncing, throttling, and dynamic rate-limiting",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "keywords": ["debounce", "throttle", "rate-limit", "performance"],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "files": ["dist"]
+}
