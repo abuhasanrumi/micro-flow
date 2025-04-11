@@ -130,8 +130,6 @@ To contribute or run locally:
 
 ## License
 
-[MIT License](LICENSE)
-
 Copyright (c) 2025 Abu Hasan Rumi
 
 ## Acknowledgments
