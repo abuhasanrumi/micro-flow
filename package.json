@@ -1,6 +1,6 @@
 {
   "name": "@abuhasanrumi/micro-flow",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A tiny utility for debouncing, throttling, and dynamic rate-limiting",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
