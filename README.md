@@ -1,3 +1,6 @@
+[![npm](https://img.shields.io/npm/v/@abuhasanrumi/micro-flow)](https://www.npmjs.com/package/@abuhasanrumi/micro-flow)
+[![CI](https://github.com/abuhasanrumi/micro-flow/actions/workflows/ci.yml/badge.svg)](https://github.com/abuhasanrumi/micro-flow/actions)
+
 A tiny (364b) JavaScript utility for debouncing, throttling, and dynamic rate-limiting. Built for performance and simplicity, `micro-flow` helps developers optimize event-driven applications with minimal overhead.
 
 ## Introduction
